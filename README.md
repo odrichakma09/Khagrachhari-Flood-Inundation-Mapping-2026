@@ -207,9 +207,6 @@ Interested in geospatial data science, Earth observation, machine learning, and 
 
 
 
-```markdown
-
-
 
 ## Repository Structure
 
@@ -233,7 +230,6 @@ Khagrachhari-Flood-Inundation-Mapping-2026/
 │
 └── figures/
     └── workflow.png
-
 
 
 
