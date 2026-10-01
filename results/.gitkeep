@@ -1,0 +1,43 @@
+## Results
+
+### Flood Inundation
+
+The Sentinel-1 SAR-based flood-detection workflow identified approximately **24.39 km²** of detected inundation within Khagrachhari District.
+
+| Metric                      |          Result |
+| --------------------------- | --------------: |
+| Study area                  |    2,857.07 km² |
+| Detected flooded area       | **24.3894 km²** |
+| Detected flooded proportion |      **~0.85%** |
+| Flood pixels                |     **243,894** |
+| Spatial resolution          |        **10 m** |
+| CRS                         |  **EPSG:32646** |
+
+### Final Flood Map
+
+![Khagrachhari Flood Inundation Map — 2026](maps/Khagrachhari_Flood_Map_2026.png)
+
+*Figure: Sentinel-1 SAR-based detected flood inundation in Khagrachhari District, Bangladesh, 2026.*
+
+### Flood-Patch Analysis
+
+The detected flood mask was converted from raster to vector and subsequently analyzed as individual single-part flood geometries.
+
+The polygon-based analysis produced a total geometry area of **24.4016 km²**, compared with **24.3894 km²** from the raster-based calculation.
+
+| Method                       | Detected Area |
+| ---------------------------- | ------------: |
+| Raster pixel calculation     |   24.3894 km² |
+| Polygon geometry calculation |   24.4016 km² |
+| Difference                   |   ~0.0122 km² |
+| Relative difference          |        ~0.05% |
+
+The close agreement between the raster and polygon calculations provides a consistency check between the raster-derived and vector-derived area measurements.
+
+### Results Preview
+
+| Flood Detection                                         | Flood-Patch Analysis                               |
+| ------------------------------------------------------- | -------------------------------------------------- |
+| ![Flood detection](figures/flood_detection_preview.png) | ![Flood patches](figures/flood_patch_analysis.png) |
+
+*The preview figures summarize the main outputs of the Google Earth Engine and QGIS processing workflow.*
