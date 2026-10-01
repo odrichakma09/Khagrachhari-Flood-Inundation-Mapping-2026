@@ -161,41 +161,9 @@ steps:
 - Cartographic map preparation
 
 
-## Repository Structure
-
-```text
-Khagrachhari-Flood-Inundation-Mapping-2026/
-│
-├── README.md
-├── LICENSE
-│
-├── gee/
-│   └── khagrachhari_flood_mapping_2026.js
-│
-├── qgis/
-│   └── workflow.md
-│
-├── maps/
-│   └── Khagrachhari_Flood_Map_2026.png
-│
-├── results/
-│   └── flood_statistics.csv
-│
-└── figures/
-    └── workflow.png
-
-
-
-You can modify this later depending on what files you actually upload.
-
 ---
 
 # 16. Limitations
-
-This is **very important** for a research portfolio.
-
-```markdown
-## Limitations
 
 The mapped inundation represents the output of the implemented Sentinel-1 SAR flood-detection workflow and should be interpreted as detected inundation rather than an independently validated flood inventory.
 
@@ -235,8 +203,37 @@ Third-party datasets, satellite imagery, and other external resources remain sub
 **[Odri Chakma]**
 
 GIS | Remote Sensing | GeoAI
-
 Interested in geospatial data science, Earth observation, machine learning, and environmental monitoring.
+
+
+
+```markdown
+
+
+
+## Repository Structure
+
+```text
+Khagrachhari-Flood-Inundation-Mapping-2026/
+│
+├── README.md
+├── LICENSE
+│
+├── gee/
+│   └── khagrachhari_flood_mapping_2026.js
+│
+├── qgis/
+│   └── workflow.md
+│
+├── maps/
+│   └── Khagrachhari_Flood_Map_2026.png
+│
+├── results/
+│   └── flood_statistics.csv
+│
+└── figures/
+    └── workflow.png
+
 
 
 
