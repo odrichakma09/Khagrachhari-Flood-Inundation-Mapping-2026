@@ -163,6 +163,7 @@ steps:
 
 ## Repository Structure
 
+```text
 Khagrachhari-Flood-Inundation-Mapping-2026/
 │
 ├── README.md
@@ -184,20 +185,23 @@ Khagrachhari-Flood-Inundation-Mapping-2026/
     └── workflow.png
 
 
+
+You can modify this later depending on what files you actually upload.
+
+---
+
 # 16. Limitations
 
 This is **very important** for a research portfolio.
 
-### Option A — Recommended
-
+```markdown
 ## Limitations
 
 The mapped inundation represents the output of the implemented Sentinel-1 SAR flood-detection workflow and should be interpreted as detected inundation rather than an independently validated flood inventory.
 
-The analysis may be affected by factors such as radar backscatter variability, vegetation, terrain, permanent water bodies, image  acquisition conditions, and the selected flood-detection parameters.
+The analysis may be affected by factors such as radar backscatter variability, vegetation, terrain, permanent water bodies, image acquisition conditions, and the selected flood-detection parameters.
 
 No independent ground-truth dataset is currently included in this repository.
-
 
 
 ## Future Improvements
