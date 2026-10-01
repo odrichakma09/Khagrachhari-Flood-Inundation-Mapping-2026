@@ -1,6 +1,4 @@
 # Khagrachhari-Flood-Inundation-Mapping-2026
-Khagrachhari-Flood-Inundation-Mapping-2026
-
 
 # Sentinel-1 SAR-Based Flood Inundation Mapping of Khagrachhari — 2026 
 
